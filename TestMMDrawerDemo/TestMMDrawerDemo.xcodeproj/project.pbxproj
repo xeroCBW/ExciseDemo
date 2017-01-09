@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C97ADF10F806B4BE126D06A2 /* libPods-TestMMDrawerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D032A35BCFBBC4C3D5136435 /* libPods-TestMMDrawerDemo.a */; };
+		D03E84F11DF7E76700C1E0AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D03E84F01DF7E76700C1E0AF /* main.m */; };
+		D03E84F41DF7E76700C1E0AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D03E84F31DF7E76700C1E0AF /* AppDelegate.m */; };
+		D03E84FC1DF7E76700C1E0AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03E84FB1DF7E76700C1E0AF /* Assets.xcassets */; };
+		D03E84FF1DF7E76700C1E0AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03E84FD1DF7E76700C1E0AF /* LaunchScreen.storyboard */; };
+		D03E850B1DF7E8D200C1E0AF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D03E850A1DF7E8D200C1E0AF /* MainViewController.m */; };
+		D03E850E1DF7E8E000C1E0AF /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D03E850D1DF7E8E000C1E0AF /* LeftViewController.m */; };
+		D05FD76D1DFE83D800EDFE1D /* CustomIOSAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = D05FD76C1DFE83D800EDFE1D /* CustomIOSAlertView.m */; };
+		D08B3EAE1DFE848D003E1303 /* CBWAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = D08B3EAD1DFE848D003E1303 /* CBWAlertView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10FE1FEEBC2CC3F293AA9060 /* Pods-TestMMDrawerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMMDrawerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestMMDrawerDemo/Pods-TestMMDrawerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5E585BB2B905EA61A6DE8F39 /* Pods-TestMMDrawerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMMDrawerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestMMDrawerDemo/Pods-TestMMDrawerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D032A35BCFBBC4C3D5136435 /* libPods-TestMMDrawerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestMMDrawerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03E84EC1DF7E76700C1E0AF /* TestMMDrawerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMMDrawerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03E84F01DF7E76700C1E0AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D03E84F21DF7E76700C1E0AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D03E84F31DF7E76700C1E0AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D03E84FB1DF7E76700C1E0AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D03E84FE1DF7E76700C1E0AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D03E85001DF7E76700C1E0AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D03E85091DF7E8D200C1E0AF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D03E850A1DF7E8D200C1E0AF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D03E850C1DF7E8E000C1E0AF /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		D03E850D1DF7E8E000C1E0AF /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		D05FD76B1DFE83D800EDFE1D /* CustomIOSAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomIOSAlertView.h; sourceTree = "<group>"; };
+		D05FD76C1DFE83D800EDFE1D /* CustomIOSAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomIOSAlertView.m; sourceTree = "<group>"; };
+		D08B3EAC1DFE848D003E1303 /* CBWAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBWAlertView.h; sourceTree = "<group>"; };
+		D08B3EAD1DFE848D003E1303 /* CBWAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBWAlertView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D03E84E91DF7E76700C1E0AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97ADF10F806B4BE126D06A2 /* libPods-TestMMDrawerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C40B7F6A6091AEDD08DE0FB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E585BB2B905EA61A6DE8F39 /* Pods-TestMMDrawerDemo.debug.xcconfig */,
+				10FE1FEEBC2CC3F293AA9060 /* Pods-TestMMDrawerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D03E84E31DF7E76700C1E0AF = {
+			isa = PBXGroup;
+			children = (
+				D08B3EAC1DFE848D003E1303 /* CBWAlertView.h */,
+				D08B3EAD1DFE848D003E1303 /* CBWAlertView.m */,
+				D05FD76B1DFE83D800EDFE1D /* CustomIOSAlertView.h */,
+				D05FD76C1DFE83D800EDFE1D /* CustomIOSAlertView.m */,
+				D03E84EE1DF7E76700C1E0AF /* TestMMDrawerDemo */,
+				D03E84ED1DF7E76700C1E0AF /* Products */,
+				C40B7F6A6091AEDD08DE0FB2 /* Pods */,
+				FB53DD29356AC4C608CCBF42 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D03E84ED1DF7E76700C1E0AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D03E84EC1DF7E76700C1E0AF /* TestMMDrawerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D03E84EE1DF7E76700C1E0AF /* TestMMDrawerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D03E84F21DF7E76700C1E0AF /* AppDelegate.h */,
+				D03E84F31DF7E76700C1E0AF /* AppDelegate.m */,
+				D03E85091DF7E8D200C1E0AF /* MainViewController.h */,
+				D03E850A1DF7E8D200C1E0AF /* MainViewController.m */,
+				D03E850C1DF7E8E000C1E0AF /* LeftViewController.h */,
+				D03E850D1DF7E8E000C1E0AF /* LeftViewController.m */,
+				D03E84FB1DF7E76700C1E0AF /* Assets.xcassets */,
+				D03E84FD1DF7E76700C1E0AF /* LaunchScreen.storyboard */,
+				D03E85001DF7E76700C1E0AF /* Info.plist */,
+				D03E84EF1DF7E76700C1E0AF /* Supporting Files */,
+			);
+			path = TestMMDrawerDemo;
+			sourceTree = "<group>";
+		};
+		D03E84EF1DF7E76700C1E0AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D03E84F01DF7E76700C1E0AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB53DD29356AC4C608CCBF42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D032A35BCFBBC4C3D5136435 /* libPods-TestMMDrawerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D03E84EB1DF7E76700C1E0AF /* TestMMDrawerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D03E85031DF7E76700C1E0AF /* Build configuration list for PBXNativeTarget "TestMMDrawerDemo" */;
+			buildPhases = (
+				9488B5A1E1648EBF6E0771D3 /* [CP] Check Pods Manifest.lock */,
+				D03E84E81DF7E76700C1E0AF /* Sources */,
+				D03E84E91DF7E76700C1E0AF /* Frameworks */,
+				D03E84EA1DF7E76700C1E0AF /* Resources */,
+				D97207AB02AC78FC00EE50C2 /* [CP] Embed Pods Frameworks */,
+				ADA2241EE21B2FEBD44873C0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestMMDrawerDemo;
+			productName = TestMMDrawerDemo;
+			productReference = D03E84EC1DF7E76700C1E0AF /* TestMMDrawerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D03E84E41DF7E76700C1E0AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "陈博文";
+				TargetAttributes = {
+					D03E84EB1DF7E76700C1E0AF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 39CU25G7Z2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D03E84E71DF7E76700C1E0AF /* Build configuration list for PBXProject "TestMMDrawerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D03E84E31DF7E76700C1E0AF;
+			productRefGroup = D03E84ED1DF7E76700C1E0AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D03E84EB1DF7E76700C1E0AF /* TestMMDrawerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D03E84EA1DF7E76700C1E0AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03E84FF1DF7E76700C1E0AF /* LaunchScreen.storyboard in Resources */,
+				D03E84FC1DF7E76700C1E0AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9488B5A1E1648EBF6E0771D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ADA2241EE21B2FEBD44873C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestMMDrawerDemo/Pods-TestMMDrawerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D97207AB02AC78FC00EE50C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestMMDrawerDemo/Pods-TestMMDrawerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D03E84E81DF7E76700C1E0AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D08B3EAE1DFE848D003E1303 /* CBWAlertView.m in Sources */,
+				D03E84F41DF7E76700C1E0AF /* AppDelegate.m in Sources */,
+				D03E850E1DF7E8E000C1E0AF /* LeftViewController.m in Sources */,
+				D03E850B1DF7E8D200C1E0AF /* MainViewController.m in Sources */,
+				D03E84F11DF7E76700C1E0AF /* main.m in Sources */,
+				D05FD76D1DFE83D800EDFE1D /* CustomIOSAlertView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D03E84FD1DF7E76700C1E0AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D03E84FE1DF7E76700C1E0AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D03E85011DF7E76700C1E0AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D03E85021DF7E76700C1E0AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D03E85041DF7E76700C1E0AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E585BB2B905EA61A6DE8F39 /* Pods-TestMMDrawerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 39CU25G7Z2;
+				INFOPLIST_FILE = TestMMDrawerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cbw.TestMMDrawerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D03E85051DF7E76700C1E0AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10FE1FEEBC2CC3F293AA9060 /* Pods-TestMMDrawerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 39CU25G7Z2;
+				INFOPLIST_FILE = TestMMDrawerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cbw.TestMMDrawerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D03E84E71DF7E76700C1E0AF /* Build configuration list for PBXProject "TestMMDrawerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D03E85011DF7E76700C1E0AF /* Debug */,
+				D03E85021DF7E76700C1E0AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D03E85031DF7E76700C1E0AF /* Build configuration list for PBXNativeTarget "TestMMDrawerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D03E85041DF7E76700C1E0AF /* Debug */,
+				D03E85051DF7E76700C1E0AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D03E84E41DF7E76700C1E0AF /* Project object */;
+}
