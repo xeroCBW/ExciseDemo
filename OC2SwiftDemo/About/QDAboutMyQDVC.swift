@@ -18,12 +18,12 @@ let reuseID = "reuseID"
     
     
     public override func viewDidLoad() {
-        
         super.viewDidLoad()
         
-        print(self.listArr)
-        
         self.setUpTableView();
+        
+//        print(self.listArr)
+        print(self)
 
     }
     
@@ -69,7 +69,6 @@ let reuseID = "reuseID"
 }
 
 //MARK:delegate
-
 
 extension QDAboutMyQDVC:UITableViewDelegate{
     
@@ -119,8 +118,6 @@ extension QDAboutMyQDVC:UITableViewDataSource{
         let arr:NSArray = self.listArr[indexPath.section] as! NSArray;
         
         let dic:NSDictionary = arr[indexPath.row] as! NSDictionary;
-        
-        
         let cell = UITableViewCell(style: UITableViewCellStyle.value1, reuseIdentifier: nil)
         
 //        let cell = tableView.dequeueReusableCell(withIdentifier: reuseID, for: indexPath)
@@ -130,9 +127,6 @@ extension QDAboutMyQDVC:UITableViewDataSource{
         
         let title = dic["title"];
         let  des = dic["des"];
-        
-        print("\(title)\(des)")
-        
         cell.textLabel?.font = UIFont(name: (cell.textLabel?.font.fontName)!, size: 13)
         cell.detailTextLabel?.font = UIFont(name: (cell.detailTextLabel?.font.fontName)!, size: 13)
 

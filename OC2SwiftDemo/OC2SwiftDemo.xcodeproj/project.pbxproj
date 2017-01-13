@@ -18,6 +18,7 @@
 		D08204511E1F459400D7C85B /* QDAboutMyQDVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D082044B1E1F459400D7C85B /* QDAboutMyQDVC.swift */; };
 		D08204531E1F45CA00D7C85B /* EnumTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08204521E1F45CA00D7C85B /* EnumTestViewController.swift */; };
 		D08204591E1F519A00D7C85B /* EnumTestOCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08204581E1F519A00D7C85B /* EnumTestOCViewController.m */; };
+		D0865DD21E2888310020DA74 /* SwiftPropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0865DD11E2888310020DA74 /* SwiftPropertyViewController.swift */; };
 		D0C7D5921E1CA4EA002719BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C7D5911E1CA4EA002719BE /* main.m */; };
 		D0C7D5951E1CA4EA002719BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C7D5941E1CA4EA002719BE /* AppDelegate.m */; };
 		D0C7D5981E1CA4EA002719BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C7D5971E1CA4EA002719BE /* ViewController.m */; };
@@ -26,6 +27,12 @@
 		D0C7D5A01E1CA4EA002719BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C7D59E1E1CA4EA002719BE /* LaunchScreen.storyboard */; };
 		D0D49F271E1E28C90031B2D0 /* BaseVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D49F261E1E28C90031B2D0 /* BaseVCViewController.m */; };
 		D0D49F2A1E1E28EB0031B2D0 /* BaseUseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D49F291E1E28EB0031B2D0 /* BaseUseViewController.m */; };
+		D0E1CB451E2727A20037ED84 /* SwiftMacroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E1CB441E2727A20037ED84 /* SwiftMacroViewController.swift */; };
+		D0E1CB511E2739630037ED84 /* SwiftEnvironmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E1CB501E2739630037ED84 /* SwiftEnvironmentViewController.swift */; };
+		D0E1CB541E2751200037ED84 /* SwiftNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E1CB531E2751200037ED84 /* SwiftNotificationViewController.swift */; };
+		D0E1CB5A1E275EA20037ED84 /* SwiftDelegateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E1CB591E275EA20037ED84 /* SwiftDelegateViewController.swift */; };
+		D0E1CB5D1E2779050037ED84 /* TestOCDeletegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E1CB5C1E2779050037ED84 /* TestOCDeletegateViewController.m */; };
+		D0E1CB5F1E277F810037ED84 /* SwiftClosureTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E1CB5E1E277F810037ED84 /* SwiftClosureTestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +40,6 @@
 		D00887ED1E1F7A58004B7A1C /* MacroOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroOC.h; sourceTree = "<group>"; };
 		D00887EE1E1F7A58004B7A1C /* MacroOC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacroOC.m; sourceTree = "<group>"; };
 		D082043C1E1F453400D7C85B /* EnumTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumTest.swift; sourceTree = "<group>"; };
-		D08204401E1F459400D7C85B /* CommonDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonDefine.h; sourceTree = "<group>"; };
 		D08204411E1F459400D7C85B /* UCSAboutFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCSAboutFooterView.h; sourceTree = "<group>"; };
 		D08204421E1F459400D7C85B /* UCSAboutFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCSAboutFooterView.m; sourceTree = "<group>"; };
 		D08204431E1F459400D7C85B /* UCSAboutFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UCSAboutFooterView.xib; sourceTree = "<group>"; };
@@ -47,6 +53,7 @@
 		D08204521E1F45CA00D7C85B /* EnumTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumTestViewController.swift; sourceTree = "<group>"; };
 		D08204571E1F519A00D7C85B /* EnumTestOCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnumTestOCViewController.h; sourceTree = "<group>"; };
 		D08204581E1F519A00D7C85B /* EnumTestOCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnumTestOCViewController.m; sourceTree = "<group>"; };
+		D0865DD11E2888310020DA74 /* SwiftPropertyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftPropertyViewController.swift; sourceTree = "<group>"; };
 		D0C7D58D1E1CA4EA002719BE /* OC2SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OC2SwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C7D5911E1CA4EA002719BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D0C7D5931E1CA4EA002719BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,11 +64,20 @@
 		D0C7D59C1E1CA4EA002719BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0C7D59F1E1CA4EA002719BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0C7D5A11E1CA4EA002719BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0C7D5A71E1CA50C002719BE /* OC2SwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OC2SwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		D0D49F251E1E28C90031B2D0 /* BaseVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVCViewController.h; sourceTree = "<group>"; };
 		D0D49F261E1E28C90031B2D0 /* BaseVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVCViewController.m; sourceTree = "<group>"; };
 		D0D49F281E1E28EB0031B2D0 /* BaseUseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseUseViewController.h; sourceTree = "<group>"; };
 		D0D49F291E1E28EB0031B2D0 /* BaseUseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseUseViewController.m; sourceTree = "<group>"; };
+		D0E1CB441E2727A20037ED84 /* SwiftMacroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftMacroViewController.swift; sourceTree = "<group>"; };
+		D0E1CB501E2739630037ED84 /* SwiftEnvironmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftEnvironmentViewController.swift; sourceTree = "<group>"; };
+		D0E1CB531E2751200037ED84 /* SwiftNotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftNotificationViewController.swift; sourceTree = "<group>"; };
+		D0E1CB591E275EA20037ED84 /* SwiftDelegateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftDelegateViewController.swift; sourceTree = "<group>"; };
+		D0E1CB5B1E2779050037ED84 /* TestOCDeletegateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestOCDeletegateViewController.h; sourceTree = "<group>"; };
+		D0E1CB5C1E2779050037ED84 /* TestOCDeletegateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestOCDeletegateViewController.m; sourceTree = "<group>"; };
+		D0E1CB5E1E277F810037ED84 /* SwiftClosureTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftClosureTestViewController.swift; sourceTree = "<group>"; };
+		D0E1CB671E278B080037ED84 /* QDCommonDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDCommonDefine.h; sourceTree = "<group>"; };
+		D0E1CB7D1E278D3C0037ED84 /* CommonDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonDefine.h; sourceTree = "<group>"; };
+		D0E1CB7E1E278DED0037ED84 /* OC2SwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OC2SwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +97,7 @@
 				D00887E81E1F723E004B7A1C /* MacroSwift.swift */,
 				D00887ED1E1F7A58004B7A1C /* MacroOC.h */,
 				D00887EE1E1F7A58004B7A1C /* MacroOC.m */,
+				D0E1CB441E2727A20037ED84 /* SwiftMacroViewController.swift */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -108,7 +125,8 @@
 		D082043F1E1F459400D7C85B /* Assist */ = {
 			isa = PBXGroup;
 			children = (
-				D08204401E1F459400D7C85B /* CommonDefine.h */,
+				D0E1CB7D1E278D3C0037ED84 /* CommonDefine.h */,
+				D0E1CB671E278B080037ED84 /* QDCommonDefine.h */,
 				D08204411E1F459400D7C85B /* UCSAboutFooterView.h */,
 				D08204421E1F459400D7C85B /* UCSAboutFooterView.m */,
 				D08204431E1F459400D7C85B /* UCSAboutFooterView.xib */,
@@ -130,9 +148,22 @@
 			path = UCSTdCodeView;
 			sourceTree = "<group>";
 		};
+		D0865DD01E2888130020DA74 /* Property */ = {
+			isa = PBXGroup;
+			children = (
+				D0865DD11E2888310020DA74 /* SwiftPropertyViewController.swift */,
+			);
+			path = Property;
+			sourceTree = "<group>";
+		};
 		D0C7D5841E1CA4EA002719BE = {
 			isa = PBXGroup;
 			children = (
+				D0865DD01E2888130020DA74 /* Property */,
+				D0E1CB551E275D6E0037ED84 /* Closure */,
+				D0E1CB561E275D6E0037ED84 /* Delegate */,
+				D0E1CB521E27507E0037ED84 /* Notifcation */,
+				D0E1CB4F1E2739430037ED84 /* Environment */,
 				D00887E71E1F7212004B7A1C /* Macro */,
 				D082043E1E1F459400D7C85B /* About */,
 				D082043B1E1F453400D7C85B /* Enum */,
@@ -153,6 +184,7 @@
 		D0C7D58F1E1CA4EA002719BE /* OC2SwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D0E1CB7E1E278DED0037ED84 /* OC2SwiftDemo-Bridging-Header.h */,
 				D0C7D5931E1CA4EA002719BE /* AppDelegate.h */,
 				D0C7D5941E1CA4EA002719BE /* AppDelegate.m */,
 				D0C7D5961E1CA4EA002719BE /* ViewController.h */,
@@ -162,7 +194,6 @@
 				D0C7D59E1E1CA4EA002719BE /* LaunchScreen.storyboard */,
 				D0C7D5A11E1CA4EA002719BE /* Info.plist */,
 				D0C7D5901E1CA4EA002719BE /* Supporting Files */,
-				D0C7D5A71E1CA50C002719BE /* OC2SwiftDemo-Bridging-Header.h */,
 			);
 			path = OC2SwiftDemo;
 			sourceTree = "<group>";
@@ -184,6 +215,40 @@
 				D0D49F291E1E28EB0031B2D0 /* BaseUseViewController.m */,
 			);
 			path = SubClass;
+			sourceTree = "<group>";
+		};
+		D0E1CB4F1E2739430037ED84 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				D0E1CB501E2739630037ED84 /* SwiftEnvironmentViewController.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		D0E1CB521E27507E0037ED84 /* Notifcation */ = {
+			isa = PBXGroup;
+			children = (
+				D0E1CB531E2751200037ED84 /* SwiftNotificationViewController.swift */,
+			);
+			path = Notifcation;
+			sourceTree = "<group>";
+		};
+		D0E1CB551E275D6E0037ED84 /* Closure */ = {
+			isa = PBXGroup;
+			children = (
+				D0E1CB5E1E277F810037ED84 /* SwiftClosureTestViewController.swift */,
+			);
+			path = Closure;
+			sourceTree = "<group>";
+		};
+		D0E1CB561E275D6E0037ED84 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				D0E1CB591E275EA20037ED84 /* SwiftDelegateViewController.swift */,
+				D0E1CB5B1E2779050037ED84 /* TestOCDeletegateViewController.h */,
+				D0E1CB5C1E2779050037ED84 /* TestOCDeletegateViewController.m */,
+			);
+			path = Delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,19 +325,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0E1CB5D1E2779050037ED84 /* TestOCDeletegateViewController.m in Sources */,
 				D082044C1E1F459400D7C85B /* UCSAboutFooterView.m in Sources */,
 				D082044E1E1F459400D7C85B /* UCSAboutHeaderView.m in Sources */,
 				D0D49F271E1E28C90031B2D0 /* BaseVCViewController.m in Sources */,
+				D0E1CB541E2751200037ED84 /* SwiftNotificationViewController.swift in Sources */,
 				D08204591E1F519A00D7C85B /* EnumTestOCViewController.m in Sources */,
 				D082044F1E1F459400D7C85B /* UCSTdCodeView.m in Sources */,
+				D0E1CB5F1E277F810037ED84 /* SwiftClosureTestViewController.swift in Sources */,
 				D0C7D5981E1CA4EA002719BE /* ViewController.m in Sources */,
 				D08204501E1F459400D7C85B /* UIColor+RGBValues.m in Sources */,
+				D0E1CB451E2727A20037ED84 /* SwiftMacroViewController.swift in Sources */,
 				D0D49F2A1E1E28EB0031B2D0 /* BaseUseViewController.m in Sources */,
 				D0C7D5951E1CA4EA002719BE /* AppDelegate.m in Sources */,
 				D08204511E1F459400D7C85B /* QDAboutMyQDVC.swift in Sources */,
 				D00887EF1E1F7A58004B7A1C /* MacroOC.m in Sources */,
 				D00887E91E1F723E004B7A1C /* MacroSwift.swift in Sources */,
+				D0E1CB5A1E275EA20037ED84 /* SwiftDelegateViewController.swift in Sources */,
 				D082043D1E1F453400D7C85B /* EnumTest.swift in Sources */,
+				D0E1CB511E2739630037ED84 /* SwiftEnvironmentViewController.swift in Sources */,
+				D0865DD21E2888310020DA74 /* SwiftPropertyViewController.swift in Sources */,
 				D0C7D5921E1CA4EA002719BE /* main.m in Sources */,
 				D08204531E1F45CA00D7C85B /* EnumTestViewController.swift in Sources */,
 			);
@@ -405,6 +477,7 @@
 				INFOPLIST_FILE = OC2SwiftDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_SWIFT_FLAGS[arch=*]" = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cbw.OCSwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "4b52a37d-5023-441c-af59-04cb893819a0";

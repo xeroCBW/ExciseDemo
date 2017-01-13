@@ -18,15 +18,10 @@ let kScreenHeight = UIScreen.main.bounds.size.height
 let kScreenWidth = UIScreen.main.bounds.size.width
 let kIOS7 = (UIDevice().systemVersion as NSString).doubleValue >= 7.0 ? 1 :0
 let kIOS8 = (UIDevice().systemVersion as NSString).doubleValue >= 8.0 ? 1 :0
+let letString = "letString"
 
 
-class MacroSwift: NSObject{
-    
-   class func say (){
-    
-    print(UIDevice().systemVersion)
-    print(kIOS7)
-    }
-    
-    
+func RGBCOLOR(_ r:CGFloat,_ g:CGFloat,_ b:CGFloat) -> UIColor
+{
+   return UIColor(red: (r)/255.0, green: (g)/255.0, blue: (b)/255.0, alpha: 1.0)
 }
