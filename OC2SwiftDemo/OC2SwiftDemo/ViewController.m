@@ -16,7 +16,7 @@
 //static NSString *testString = @"testString";
 //NSString *testStringExternal = @"testStringExternal";
 
-@interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
+@interface ViewController ()<UITableViewDelegate,UITableViewDataSource,SwiftDelegateViewControllerDelegate>
 /** tableView*/
 @property (nonatomic ,strong) UITableView *tableView;
 
@@ -29,41 +29,26 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self.listArr addObject:@"OC2SwiftDemo.QDAboutMyQDVC"];
-    [self.listArr addObject:@"BaseVCViewController"];
-    [self.listArr addObject:@"OC2SwiftDemo.EnumTestViewController"];
-    [self.listArr addObject:@"EnumTestOCViewController"];
     
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(notificationAction) name:@"yourCustomNotificationName" object:nil];
+
     [self.view addSubview:self.tableView];
     
-    [self testMacroAndValues];
-    
-    [self testMacroAndValues2];
     
  
 }
 
-
-- (void)testMacroAndValues{
+-(void)dealloc{
     
-    
-    [self testMacroAndValues2];
-    
-    
-    NSLog(@"修改后");
-//    testString = @"123";
-//    testStringExternal = @"修改后";
-    
-    [self testMacroAndValues2];
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
-- (void)testMacroAndValues2{
-    
-    NSLog(@"%@",Test);
-    NSLog(@"%@",testString);
-    NSLog(@"%@",testStringExternal);
-}
+#pragma mark - private
 
+- (void)notificationAction{
+    
+    NSLog(@"received notification from swift");
+}
 
 #pragma mark - delegate
 
@@ -72,7 +57,37 @@
     NSString *classStr = self.listArr[indexPath.row];
     Class vcClass = NSClassFromString(classStr);//命名空间的问题
     
+    if ([classStr isEqualToString:@"OC2SwiftDemo.SwiftDelegateViewController"]) {
+        
+        SwiftDelegateViewController *vc = [[SwiftDelegateViewController alloc]init];
+        vc.delegate = self;
+         [self.navigationController pushViewController:vc  animated:YES];
+        return;
+    }
+    
+    if ([classStr isEqualToString:@"OC2SwiftDemo.SwiftClosureTestViewController"]) {
+        
+        SwiftClosureTestViewController *vc = [[SwiftClosureTestViewController alloc]init];
+        vc.callback = ^(NSString *string){
+            
+            NSLog(@"%@",string);
+            
+        };
+        
+        
+        
+        [self.navigationController pushViewController:vc  animated:YES];
+        return;
+    }
+
+    
     [self.navigationController pushViewController:[[vcClass alloc]init]  animated:YES];
+    
+}
+
+-(void)didClickView:(UIView *)view{
+    
+    NSLog(@"%s:implement swift delegate ",__func__);
     
 }
 
@@ -105,6 +120,17 @@
 -(NSMutableArray *)listArr{
     if (_listArr == nil) {
         _listArr = [NSMutableArray array];
+        
+        
+        [_listArr addObject:@"OC2SwiftDemo.QDAboutMyQDVC"];
+        [_listArr addObject:@"BaseVCViewController"];
+        [_listArr addObject:@"OC2SwiftDemo.EnumTestViewController"];
+        [_listArr addObject:@"EnumTestOCViewController"];
+        [_listArr addObject:@"OC2SwiftDemo.SwiftMacroViewController"];
+        [_listArr addObject:@"OC2SwiftDemo.SwiftEnvironmentViewController"];
+        [_listArr addObject:@"OC2SwiftDemo.SwiftNotificationViewController"];
+        [_listArr addObject:@"OC2SwiftDemo.SwiftDelegateViewController"];//SwiftClosureTestViewController
+        [_listArr addObject:@"OC2SwiftDemo.SwiftClosureTestViewController"];
     }
     return _listArr;
 }

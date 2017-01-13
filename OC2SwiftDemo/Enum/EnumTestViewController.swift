@@ -24,11 +24,6 @@ class EnumTestViewController: UIViewController {
         let plant:Int = Planet.neptune.rawValue
 
         print(plant)
-        
-        print(kIOS7)
-        
-        
-        MacroSwift.say()
     }
 
 }
