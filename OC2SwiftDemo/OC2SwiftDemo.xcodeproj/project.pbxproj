@@ -18,6 +18,7 @@
 		D08204511E1F459400D7C85B /* QDAboutMyQDVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D082044B1E1F459400D7C85B /* QDAboutMyQDVC.swift */; };
 		D08204531E1F45CA00D7C85B /* EnumTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08204521E1F45CA00D7C85B /* EnumTestViewController.swift */; };
 		D08204591E1F519A00D7C85B /* EnumTestOCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08204581E1F519A00D7C85B /* EnumTestOCViewController.m */; };
+		D0865DD21E2888310020DA74 /* SwiftPropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0865DD11E2888310020DA74 /* SwiftPropertyViewController.swift */; };
 		D0C7D5921E1CA4EA002719BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C7D5911E1CA4EA002719BE /* main.m */; };
 		D0C7D5951E1CA4EA002719BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C7D5941E1CA4EA002719BE /* AppDelegate.m */; };
 		D0C7D5981E1CA4EA002719BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C7D5971E1CA4EA002719BE /* ViewController.m */; };
@@ -52,6 +53,7 @@
 		D08204521E1F45CA00D7C85B /* EnumTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumTestViewController.swift; sourceTree = "<group>"; };
 		D08204571E1F519A00D7C85B /* EnumTestOCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnumTestOCViewController.h; sourceTree = "<group>"; };
 		D08204581E1F519A00D7C85B /* EnumTestOCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnumTestOCViewController.m; sourceTree = "<group>"; };
+		D0865DD11E2888310020DA74 /* SwiftPropertyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftPropertyViewController.swift; sourceTree = "<group>"; };
 		D0C7D58D1E1CA4EA002719BE /* OC2SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OC2SwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C7D5911E1CA4EA002719BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D0C7D5931E1CA4EA002719BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -146,9 +148,18 @@
 			path = UCSTdCodeView;
 			sourceTree = "<group>";
 		};
+		D0865DD01E2888130020DA74 /* Property */ = {
+			isa = PBXGroup;
+			children = (
+				D0865DD11E2888310020DA74 /* SwiftPropertyViewController.swift */,
+			);
+			path = Property;
+			sourceTree = "<group>";
+		};
 		D0C7D5841E1CA4EA002719BE = {
 			isa = PBXGroup;
 			children = (
+				D0865DD01E2888130020DA74 /* Property */,
 				D0E1CB551E275D6E0037ED84 /* Closure */,
 				D0E1CB561E275D6E0037ED84 /* Delegate */,
 				D0E1CB521E27507E0037ED84 /* Notifcation */,
@@ -333,6 +344,7 @@
 				D0E1CB5A1E275EA20037ED84 /* SwiftDelegateViewController.swift in Sources */,
 				D082043D1E1F453400D7C85B /* EnumTest.swift in Sources */,
 				D0E1CB511E2739630037ED84 /* SwiftEnvironmentViewController.swift in Sources */,
+				D0865DD21E2888310020DA74 /* SwiftPropertyViewController.swift in Sources */,
 				D0C7D5921E1CA4EA002719BE /* main.m in Sources */,
 				D08204531E1F45CA00D7C85B /* EnumTestViewController.swift in Sources */,
 			);

@@ -47,7 +47,7 @@
 
 - (void)notificationAction{
     
-    NSLog(@"received notification from swift");
+    NSLog(@"首页中接收到了 swift 发来的通知:received notification from swift");
 }
 
 #pragma mark - delegate
@@ -70,11 +70,18 @@
         SwiftClosureTestViewController *vc = [[SwiftClosureTestViewController alloc]init];
         vc.callback = ^(NSString *string){
             
-            NSLog(@"%@",string);
+            NSLog(@"首页中执行了 closure%@",string);
             
         };
         
+        [self.navigationController pushViewController:vc  animated:YES];
+        return;
+    }
+    
+    if ([classStr isEqualToString:@"OC2SwiftDemo.SwiftPropertyViewController"]) {
         
+        SwiftPropertyViewController *vc = [[SwiftPropertyViewController alloc]init];
+        vc.age = nil;
         
         [self.navigationController pushViewController:vc  animated:YES];
         return;
@@ -87,7 +94,7 @@
 
 -(void)didClickView:(UIView *)view{
     
-    NSLog(@"%s:implement swift delegate ",__func__);
+    NSLog(@"首页中执行了 swift 的 deleagte:implement swift delegate ");
     
 }
 
@@ -129,8 +136,9 @@
         [_listArr addObject:@"OC2SwiftDemo.SwiftMacroViewController"];
         [_listArr addObject:@"OC2SwiftDemo.SwiftEnvironmentViewController"];
         [_listArr addObject:@"OC2SwiftDemo.SwiftNotificationViewController"];
-        [_listArr addObject:@"OC2SwiftDemo.SwiftDelegateViewController"];//SwiftClosureTestViewController
+        [_listArr addObject:@"OC2SwiftDemo.SwiftDelegateViewController"];
         [_listArr addObject:@"OC2SwiftDemo.SwiftClosureTestViewController"];
+        [_listArr addObject:@"OC2SwiftDemo.SwiftPropertyViewController"];
     }
     return _listArr;
 }

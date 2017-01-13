@@ -14,6 +14,9 @@ class SwiftEnvironmentViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+    self.title = "验证测试环境还是生产环境"
+    
         view.backgroundColor = UIColor.white
         
         self.say()
